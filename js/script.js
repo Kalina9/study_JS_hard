@@ -22,30 +22,78 @@
 let lang = "en";
 let array = [];
 //выводяться дни недели с ипользованием If
-// if (lang == 'ru') {
-//     array = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
-// }
-// if (lang == 'en') {
-//     array = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-// }
-// console.log(array);
+if (lang == "ru") {
+  array = [
+    "Понедельник",
+    "Вторник",
+    "Среда",
+    "Четверг",
+    "Пятница",
+    "Суббота",
+    "Воскресенье",
+  ];
+}
+if (lang == "en") {
+  array = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
+}
+console.log(array);
 //выводяться дни недели с ипользованием switch
-// switch (lang) {
-//     case 'ru':
-//         array = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
-//         break;
-//     case 'en':
-//         array = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-//         break;
-// }
-// console.log(array);
+switch (lang) {
+  case "ru":
+    array = [
+      "Понедельник",
+      "Вторник",
+      "Среда",
+      "Четверг",
+      "Пятница",
+      "Суббота",
+      "Воскресенье",
+    ];
+    break;
+  case "en":
+    array = [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday",
+    ];
+    break;
+}
+console.log(array);
 
 //выводяться дни недели с ипользованием массива
-// let array = {
-//     'ru': ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
-//     'en': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-// };
-// console.log(array[lang]);
+let array = {
+  ru: [
+    "Понедельник",
+    "Вторник",
+    "Среда",
+    "Четверг",
+    "Пятница",
+    "Суббота",
+    "Воскресенье",
+  ],
+  en: [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ],
+};
+console.log(array[lang]);
 
 // Использую тернарные операторы, без использования if или switch
 let namePerson = "Женя";
