@@ -1,6 +1,6 @@
 let getString = function (string) {
     if (typeof string !== 'string') {
-        alert('Вы ввели неверные данные');
+        alert('Вы ввели неверные данные. Введите строку.');
         return;
     }
     // Удаляю пробелы с концов строки trim()
